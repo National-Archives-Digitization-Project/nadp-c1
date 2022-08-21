@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api/v1/': {
+      '/': {
         target: 'https://nadp-c1.herokuapp.com/',
         changeOrigin: true,
         secure: false,
