@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/v1/': {
-        target: 'https://nadp-c1.herokuapp.com',
+        target: 'https://nadp-c1.herokuapp.com/',
         changeOrigin: true,
         secure: false,
         ws: true,
