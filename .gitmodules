@@ -1,0 +1,3 @@
+[submodule "nadpui"]
+	path = nadpui
+	url = https://github.com/aguchux/nadpui.git

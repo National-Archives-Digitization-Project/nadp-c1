@@ -7,6 +7,11 @@ import { resolve } from "path";
 export default defineConfig({
   base: "/",
   plugins: [react()],
+  build: {
+    outDir: "./nadpui",
+    sourcemap: false,
+    emptyOutDir: true
+  },
   resolve: {
     alias: {
       "#": resolve(__dirname, "src/assets"),
