@@ -8,9 +8,9 @@ export default defineConfig({
   base: "/",
   plugins: [react()],
   build: {
-    outDir: "./nadpui",
+    outDir: "./nadpuix",
     sourcemap: false,
-    emptyOutDir: true
+    emptyOutDir: false
   },
   resolve: {
     alias: {

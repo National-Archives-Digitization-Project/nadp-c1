@@ -1,3 +1,3 @@
-[submodule "nadpui"]
-	path = nadpui
-	url = https://github.com/aguchux/nadpui.git
+[submodule "nadpuix"]
+	path = nadpuix
+	url = https://github.com/National-Archives-Digitization-Project/nadpuix.git
