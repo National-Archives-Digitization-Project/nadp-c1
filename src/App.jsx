@@ -11,8 +11,8 @@ const App = () => {
     <Fragment>
       <BrowserRouter>
         <Switch>
-          <Route path="/" index={true} component={Login} />
-          <Route path="/dashboard" component={Dashboard} />
+          <Route path="/" component={Login} />
+          <Route path="/dashboard/" exact component={Dashboard} />
         </Switch>
       </BrowserRouter>
     </Fragment>
