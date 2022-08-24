@@ -12,7 +12,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" index element={<Login />} />
-          <Route path="/dashboard/" element={<Dashboard />} />
+          <Route path="/dashboard" exac element={<Dashboard />} />
         </Routes>
       </Router>
     </Fragment>
