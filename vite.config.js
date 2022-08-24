@@ -5,11 +5,9 @@ import { resolve } from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/",
   plugins: [react()],
   build: {
-    outDir: "./dist",
-    sourcemap: true,
+    sourcemap: false,
     emptyOutDir: true
   }
 })
