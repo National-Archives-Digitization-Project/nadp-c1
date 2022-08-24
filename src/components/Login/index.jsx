@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import axios from 'axios';
 import Session from 'react-session-api';
-import useLocalStorage from "use-local-storage";
 import { useAppContext } from '../../context/Context';
 
 
