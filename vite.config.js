@@ -8,7 +8,7 @@ export default defineConfig({
   base: "/",
   plugins: [react()],
   build: {
-    outDir: "./nadpuix",
+    outDir: "./dist",
     sourcemap: false,
     emptyOutDir: false
   },
