@@ -1,6 +1,6 @@
 
 import React, { Fragment, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
 import Login from './components/Login'
 import Dashboard from './components/Dashboard';
 
@@ -9,12 +9,12 @@ const App = () => {
 
   return (
     <Fragment>
-      <Router>
-        <Routes>
-          <Route path="/" index element={<Login />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-        </Routes>
-      </Router>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" index={true} component={Login} />
+          <Route path="/dashboard" component={Dashboard} />
+        </Switch>
+      </BrowserRouter>
     </Fragment>
   )
 }
