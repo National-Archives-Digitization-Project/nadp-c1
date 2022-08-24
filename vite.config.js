@@ -11,11 +11,5 @@ export default defineConfig({
     outDir: "./dist",
     sourcemap: true,
     emptyOutDir: true
-  },
-  resolve: {
-    alias: {
-      "#": resolve(__dirname, "src/assets"),
-      "@": resolve(__dirname, "src"),
-    }
   }
 })
