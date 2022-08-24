@@ -9,8 +9,8 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "./dist",
-    sourcemap: false,
-    emptyOutDir: false
+    sourcemap: true,
+    emptyOutDir: true
   },
   resolve: {
     alias: {
